@@ -150,6 +150,8 @@ def gae_for_na(name):
 def load_test_names():
     return load_json(settings.DATA_DIR, 'test_name_list.json')
 
+# The main method returns the authors name and corresponding number of papers, number of clusters, precision
+# recall and F1 score
 
 def main():
     names = load_test_names()
